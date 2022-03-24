@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header className="header">
+        {/* Nav component featuring nav categories */}
       </header>
+
+      <main>
+        {/* About Me content.  About Me section is default homepage view! */}
+        {/* Portfolio/project cards content */}
+        {/* Contact form content */}
+      </main>
+
+      <footer className="footer">
+        {/* GitHub link */}
+        {/* LinkedIn link */}
+      </footer>
     </div>
   );
 }
