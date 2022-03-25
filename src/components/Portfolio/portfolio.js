@@ -60,7 +60,7 @@ export default function Portfolio() {
                                 <Card.Text className='card-text'>
                                     {project.description}
                                 </Card.Text>
-                                <Stack direction='horizontal' gap={4}>
+                                <Stack direction='horizontal' gap={5}>
                                     <Button variant="outline-primary" href={project.link}>Project Website</Button>
                                     <div className='vr' />
                                     <Button variant="outline-info" href={project.githubLink}>GitHub Repo</Button>
@@ -80,7 +80,7 @@ export default function Portfolio() {
                                 <Card.Text className='card-text'>
                                     {project.description}
                                 </Card.Text>
-                                <Stack direction='horizontal' gap={2}>
+                                <Stack direction='horizontal' gap={5}>
                                     <Button variant="outline-primary" href={project.link}>Project Website</Button>
                                     <div className='vr' />
                                     <Button variant="outline-info" href={project.githubLink}>GitHub Repo</Button>
