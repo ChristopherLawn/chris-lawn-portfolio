@@ -7,7 +7,7 @@ function About() {
                 {/* <h1 className="justify-content-center">My Story</h1> */}
                 <div className="col-sm-4">
                     <figure className="figure">
-                        <img src={require(`../../assets/images/headshot/ChrisLawn_Headshot.jpg`)} className="figure-img img-fluid rounded" alt="A headshot of Chris Lawn" />
+                        <img src={require('../../assets/images/headshot/ChrisLawn_Headshot.jpg')} className="figure-img img-fluid rounded" alt="A headshot of Chris Lawn" />
                     </figure>
                 </div>
                 <div className="bio col-sm-4">
