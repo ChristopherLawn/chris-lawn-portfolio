@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { validateEmail } from '../../utils/helpers';
+import { Container, Form } from "react-bootstrap";
 
-function Contact() {
+function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
@@ -36,8 +37,31 @@ function Contact() {
 
     return (
         <section>
-            <h1 data-testid="h1tag">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <Container>
+                <Form id="contact-form" onSubmit={handleSubmit}>
+                    <h1 className="contact-title">Contact me</h1>
+                    <Form.Group controlId="form.Name">
+                        <Form.Label className="contact-input" htmlFor="name">Name:</Form.Label>
+                        <Form.Control type="text" defaultValue={name} name="name" onBlur={handleChange} placeholder="Enter name" />
+                    </Form.Group>
+                    <Form.Group controlId="form.Email">
+                        <Form.Label className="contact-input" htmlFor="email">Email address:</Form.Label>
+                        <Form.Control type="email" defaultValue={email} name="email" onBlur={handleChange} placeholder="name@example.com" />
+                    </Form.Group>
+                    <Form.Group controlId="form.Textarea">
+                        <Form.Label className="contact-input" htmlFor="message">Message:</Form.Label>
+                        <Form.Control as="textarea" name="message" defaultValue={message} rows="3" onBlur={handleChange} />
+                    </Form.Group>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button className="button" type="submit">Submit</button>
+                </Form>
+            </Container>
+
+            {/* <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} name="name" onBlur={handleChange} />
@@ -56,9 +80,9 @@ function Contact() {
                     </div>
                 )}
                 <button data-testid="button" type="submit">Submit</button>
-            </form>
+            </form> */}
         </section>
     )
 }
 
-export default Contact;
+export default ContactForm;

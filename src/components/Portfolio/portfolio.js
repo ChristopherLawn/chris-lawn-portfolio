@@ -50,40 +50,40 @@ export default function Portfolio() {
     ];
     return (
         <Container className='justify-content-between pt-4'>
-            <Row className='d-flex pb-2'>
+            <Row className='d-flex pt-2 pb-2'>
                 {projectArrayOne.map((project) => (
                     <Col>
-                        <Card className='project'>
+                        <Card className='project mt-2 mb-2'>
                             <Card.Img variant="top" src={project.image} />
                             <Card.Body>
                                 <Card.Title className='card-title'>{project.title}</Card.Title>
-                                <Card.Text>
+                                <Card.Text className='card-text'>
                                     {project.description}
                                 </Card.Text>
                                 <Stack direction='horizontal' gap={4}>
-                                    <Button variant="primary" href={project.link}>Project Website</Button>
+                                    <Button variant="outline-primary" href={project.link}>Project Website</Button>
                                     <div className='vr' />
-                                    <Button variant="primary" href={project.githubLink}>GitHub Repo</Button>
+                                    <Button variant="outline-info" href={project.githubLink}>GitHub Repo</Button>
                                 </Stack>
                             </Card.Body>
                         </Card>
                     </Col>
                 ))}
             </Row>
-            <Row className='d-flex pb-2'>
+            <Row className='d-flex pt-2 pb-2'>
                 {projectArrayTwo.map((project) => (
                     <Col>
-                        <Card className='project'>
+                        <Card className='project mt-2 mb-2'>
                             <Card.Img variant="top" src={project.image} />
                             <Card.Body>
                                 <Card.Title className='card-title'>{project.title}</Card.Title>
-                                <Card.Text>
+                                <Card.Text className='card-text'>
                                     {project.description}
                                 </Card.Text>
                                 <Stack direction='horizontal' gap={2}>
-                                    <Button variant="primary" href={project.link}>Project Website</Button>
+                                    <Button variant="outline-primary" href={project.link}>Project Website</Button>
                                     <div className='vr' />
-                                    <Button variant="primary" href={project.githubLink}>GitHub Repo</Button>
+                                    <Button variant="outline-info" href={project.githubLink}>GitHub Repo</Button>
                                 </Stack>
                             </Card.Body>
                         </Card>

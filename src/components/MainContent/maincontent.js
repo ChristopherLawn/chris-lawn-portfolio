@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap"
 import About from "../About/about"
-import Contact from "../Contact/contact"
+import ContactForm from "../Contact/contact"
 import Portfolio from "../Portfolio/portfolio"
 
 export default function MainContent(props){
@@ -12,7 +12,7 @@ export default function MainContent(props){
             return <Portfolio />
         }
         if(props.page === 'contact'){
-            return <Contact />
+            return <ContactForm />
         }
     }
     return(
