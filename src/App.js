@@ -6,10 +6,10 @@ import Footer from './components/Footer/footer';
 function App() {
   const [page, setPage] = useState('about')
   return (
-    <div >
+    <div className='main-background'>
       <Header setPage={setPage} />
       <MainContent page={page} />
-      <Footer setPage={setPage} />
+      {/* <Footer /> */}
     </div>
   );
 }

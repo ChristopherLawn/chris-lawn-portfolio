@@ -1,12 +1,74 @@
-.bio {
-  padding-left: 20px;
-  padding-top: 80px;
+:root {
+  --color-1: #0D0221;
+  --color-2: #0F084B;
+  --color-3: #26408B;
+  --color-4: #A6CFD5;
+  --color-5: #C2E7D9;
+  --color-6: #ffff;
 }
 
-.nav-links {
-  padding-right: px;
- 
+.main-background {
+  background-image: url("../src/assets/images/backgrounds/waves.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: stretch;
+  background-attachment: fixed;
+  background-position: 80%;
+  justify-content: space-around;
 }
+
+body, html {
+  height: 100;
+  color: var(--color-3);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: var(--color-3);
+  padding-bottom: 15px;
+}
+
+.nav-titles {
+  color: var(--color-4)
+}
+
+.section-title {
+  color:var(--color-4);
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.section-title:hover {
+  background: var(--color-5);
+  color: var(--color-1);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.main-title {
+  color: var(--color-4);
+}
+
+.figure img {
+  border: 2px solid var(--color-4);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px var(--color-4);
+}
+
+.bio {
+  border: 2px solid var(--color-4);
+  box-shadow: 5px 5px 5px var(--color-4);
+  padding-left: 20px;
+  padding-top: 50px;
+  background-color: #0F084B;
+  color: var(--color-5);
+  font-weight: bold;
+}
+
+/* .nav-links {
+ 
+} */
 
 .footer {
  background-color: green;
