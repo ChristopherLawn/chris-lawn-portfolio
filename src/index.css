@@ -135,8 +135,12 @@ button:hover {
   color: var(--color-4) !important;
 }
 
+.nav-link:hover {
+  color: var(--color-2) !important;
+}
+
 .footer {
-  background-color: green;
+  background-color: var(--color-4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,11 +149,20 @@ button:hover {
 }
 
 .footer h3 a {
-  color: aliceblue;
+  color: var(--color-3);
   padding-bottom: 20px;
   padding-left: 20px;
   padding-top: 20px;
   text-decoration: none;
+}
+
+.footer h3 a:hover {
+  background: var(--color-3);
+  color: var(--color-4);
+  border-radius: 15px;
+  text-shadow: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /* main {
   margin: 0 auto;
