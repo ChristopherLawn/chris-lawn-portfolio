@@ -7,7 +7,7 @@
   --color-6: #ffff;
 }
 
-.main-background {
+body {
   background-image: url("../src/assets/images/backgrounds/waves.jpg");
   background-size: cover;
   background-position: center;
@@ -18,9 +18,10 @@
 }
 
 body, html {
-  height: 100;
+  height: 100vh;
   color: var(--color-3);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 .header {
@@ -46,8 +47,18 @@ body, html {
   text-shadow: none;
 }
 
+.main-background{
+  min-height: 90vh;
+ 
+}
+
 .main-title {
   color: var(--color-4);
+}
+
+.test{
+  padding: 20px;
+  padding-bottom: 50px;
 }
 
 .figure img {
@@ -119,17 +130,18 @@ button:hover {
   color: var(--color-4);
   background-color: var(--color-3);
 }
-/* .nav-links {
- 
-} */
+
+.nav-link {
+  color: var(--color-4) !important;
+}
 
 .footer {
- background-color: green;
- padding: 15px;
- position: fixed;
- width: 100%;
- bottom: 0;
- font-size: 25px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin-top: -50px;
 }
 
 .footer h3 a {

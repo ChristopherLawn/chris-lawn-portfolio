@@ -16,7 +16,7 @@ export default function MainContent(props){
         }
     }
     return(
-        <Container>
+        <Container className="mainContent">
             {currentPage()}
         </Container>
     )
