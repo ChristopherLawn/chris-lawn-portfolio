@@ -1,23 +1,15 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './components/Header/header';
+import MainContent from './components/MainContent/maincontent';
+import Footer from './components/Footer/footer';
 
 function App() {
+  const [page, setPage] = useState('about')
   return (
-    <div>
-      <header className="header">
-        {/* Nav component featuring nav categories */}
-      </header>
-
-      <main>
-        {/* About Me content.  About Me section is default homepage view! */}
-        {/* Portfolio/project cards content */}
-        {/* Contact form content */}
-      </main>
-
-      <footer className="footer">
-        {/* GitHub link */}
-        {/* LinkedIn link */}
-      </footer>
+    <div >
+      <Header setPage={setPage} />
+      <MainContent page={page} />
+      <Footer setPage={setPage} />
     </div>
   );
 }

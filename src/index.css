@@ -1,4 +1,30 @@
-main {
+.bio {
+  padding-left: 20px;
+  padding-top: 80px;
+}
+
+.nav-links {
+  padding-right: px;
+ 
+}
+
+.footer {
+ background-color: green;
+ padding: 15px;
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ font-size: 25px;
+}
+
+.footer h3 a {
+  color: aliceblue;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+/* main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
@@ -298,4 +324,4 @@ a {
 
 .navActive {
   color: var(--secondary);
-}
+} */
