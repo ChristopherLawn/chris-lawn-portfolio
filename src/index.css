@@ -112,6 +112,10 @@ body, html {
   color: var(--color-5)
 }
 
+.active {
+  background-color: var(--color-2);
+}
+
 button {
   font-size: 1rem;
   font-weight: bold;

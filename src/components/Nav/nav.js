@@ -1,32 +1,19 @@
 import { Nav } from 'react-bootstrap';
-import React, {useState} from 'react'
 
 function NavMenu(props) {
-    const [active, setActive] = useState('/about');
     return (
-        <Nav  className='nav-titles flex-xs-column'
-            activeKey={active}
+        <Nav className='nav-titles flex-xs-column'
+            // activeKey="1"
+            // onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
             <Nav.Item>
-                <Nav.Link eventKey="about"
-                href="/about" 
-                className='section-title' onClick={() => {
-                    props.setPage('about')
-                    setActive('/about')
-                    }}>About Me</Nav.Link>
+                <Nav.Link eventKey="about" className='section-title' onClick={(e) => {e.preventDefault();props.setPage('about')}}>About Me</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="portfolio" 
-                href='/portfolio'
-                className='section-title' onClick={() => {
-                    setActive('/portfolio')
-                    props.setPage('portfolio')
-                    }}>Portfolio</Nav.Link>
+                <Nav.Link eventKey="portfolio" className='section-title' onClick={(e) => {e.preventDefault();props.setPage('portfolio')}}>Portfolio</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="contact" 
-                href='/contact'
-                className='section-title' onClick={() => props.setPage('contact')}>Contact</Nav.Link>
+                <Nav.Link eventKey="contact" className='section-title' onClick={(e) => {e.preventDefault();props.setPage('contact')}}>Contact</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 {/* <Nav.Link>  */}
