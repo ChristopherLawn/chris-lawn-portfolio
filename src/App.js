@@ -7,7 +7,7 @@ function App() {
   const [page, setPage] = useState('about')
   return (
     <div>
-      <Header setPage={setPage} />
+      <Header setPage={setPage} page={page} />
       <div className='main-background'>
         <div className='test'>
           <MainContent page={page} />
