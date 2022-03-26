@@ -39,7 +39,12 @@ function ContactForm() {
         <section>
             <Container>
                 <Form id="contact-form" onSubmit={handleSubmit}>
+                    <div className="contact-live-links">
                     <h1 className="contact-title">Contact me</h1>
+                    <h4><a href="mailto:christopher.d.lawn@gmail.com">Email</a></h4>
+                    <h4><a href="tel:5554280940">Phone</a></h4>
+                    </div>
+                    <h4>Contact Form</h4>
                     <Form.Group controlId="form.Name">
                         <Form.Label className="contact-input" htmlFor="name">Name:</Form.Label>
                         <Form.Control type="text" defaultValue={name} name="name" onBlur={handleChange} placeholder="Enter name" />
@@ -50,14 +55,14 @@ function ContactForm() {
                     </Form.Group>
                     <Form.Group controlId="form.Textarea">
                         <Form.Label className="contact-input" htmlFor="message">Message:</Form.Label>
-                        <Form.Control as="textarea" name="message" defaultValue={message} rows="3" onBlur={handleChange} />
+                        <Form.Control className="contact-message" as="textarea" name="message" defaultValue={message} rows="3" onBlur={handleChange} />
                     </Form.Group>
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <button className="button" type="submit">Submit</button>
+                    <button className="contact-button" type="submit">Submit</button>
                 </Form>
             </Container>
 
