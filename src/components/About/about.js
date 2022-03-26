@@ -15,13 +15,13 @@ function About() {
                         Chris Lawn (pronouns: he / they) is a web developer based in the Pacific Northwest. He moved to Oregon in 2017 after immediately falling in love with the area while on a road trip traveling down the length of Route 101 from Seattle to San Diego.  With over a decade of professional experience in audio visual production and project management, Chris is excited to begin a new career as a Full-Stack Web Developer.
                     </p>
                     <p>
-                        Originally born and raised in Massachusetts, he attended UMass Amherst and received a Bachelors Degree in Communication with a minor in Sociology.  His lifelong passion for media, technology, and software led him to a career doing audio visual production in community media and later moving on to AV project and program management in a corporate environment.
+                        Originally born and raised in Massachusetts, he attended UMass Amherst and received a Bachelors Degree in Communication with a minor in Sociology.  His lifelong passion for media, technology, and software led him to a career in audio visual production working for community media non-profits before moving up to AV project and program management in a corporate environment.
                     </p>
                     <p>
-                        Looking to expand his technological skillset even further, Chris attended a Full Stack Web Development certificate program through the University of Oregon.  He has worked with React, MongoDB, Express, Node, JavaScript ES6, CSS3, HTML5, SQL, MySQL2, GitHub, Sequelize, Handlebars, jQuery, and Bootstrap.  His programming skills include Object-Oriented programming, Object-Relational Mapping, Model-View-Controller programming, and Progressive Web Applications.
+                        Looking to grow in his career and expand his technological skillset even further, Chris attended a Full Stack Web Development certificate program through the University of Oregon.  He has worked on individual and group projects using React, MongoDB, Express, Node, JavaScript ES6, CSS3, HTML5, SQL, MySQL2, GitHub, Sequelize, Handlebars, jQuery, and Bootstrap.  His programming skills include Object-Oriented Programming (OOP), Object-Relational Mapping (ORM), Model-View-Controller Programming (MVC), and Progressive Web Applications (PWA).
                     </p>
                     <p>
-                        A social extrovert with a passion for people, Chris enjoys working both independently and as part of a collaborative team.  His passions include coding, media, travel, meeting and networking with new people, music, dancing, food, art, and exploring the world around him with curiosity, fervor, and a sense of humor. 
+                        A social extrovert with a natural talent for customer service, Chris enjoys working both independently and as part of a collaborative team.  His passions include coding, media, travel, camping, meeting and networking with new people, music, dancing, food, art, amusement parks, and generally exploring the world around him with curiosity, fervor, and a sense of humor. 
                     </p>
                 </div>
             </div>
