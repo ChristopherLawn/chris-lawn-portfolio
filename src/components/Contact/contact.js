@@ -11,7 +11,6 @@ function ContactForm() {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
-            // isValid conditional statement
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
             } else {
@@ -65,27 +64,6 @@ function ContactForm() {
                     <button className="contact-button" type="submit">Submit</button>
                 </Form>
             </Container>
-
-            {/* <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} name="name" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
-                </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
-                <button data-testid="button" type="submit">Submit</button>
-            </form> */}
         </section>
     )
 }

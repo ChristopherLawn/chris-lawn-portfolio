@@ -13,7 +13,7 @@ function NavMenu(props) {
                 <Nav.Link eventKey="contact" className='section-title' onClick={(e) => {e.preventDefault();props.setPage('contact')}}>Contact</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                    <a className='section-title nav-link' href="https://drive.google.com/file/d/1126tF-rh4M9EHsAS3pFoq6eDHB_7VVyB/view?usp=sharing" target="_blank" rel="noreferrer" download>Resume</a>
+                    <a className='section-title nav-link' href="https://docs.google.com/document/d/1wCyQvnnoJ1HBY6w57dMnUxx6sPIWlhIgSBITnk5_KU8/edit?usp=sharing" target="_blank" rel="noreferrer" download>Resume</a>
             </Nav.Item>
         </Nav>
     )
