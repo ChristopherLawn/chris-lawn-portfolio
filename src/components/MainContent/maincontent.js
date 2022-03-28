@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap"
 import About from "../About/about"
 import ContactForm from "../Contact/contact"
 import Portfolio from "../Portfolio/portfolio"
+import Resume from "../Resume/resume"
 
 export default function MainContent(props){
     function currentPage(){
@@ -13,6 +14,9 @@ export default function MainContent(props){
         }
         if(props.page === 'contact'){
             return <ContactForm />
+        }
+        if(props.page === 'resume'){
+            return <Resume />
         }
     }
     return(

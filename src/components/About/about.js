@@ -4,7 +4,6 @@ function About() {
     return (
         <section className="about">
             <div className="row d-flex justify-content-center m-3">
-                {/* <h1 className="justify-content-center">My Story</h1> */}
                 <div className="col-sm-6">
                     <figure className="figure">
                         <img src={require('../../assets/images/headshot/ChrisLawn_Headshot.jpg')} className="figure-img img-fluid rounded" alt="A headshot of Chris Lawn" />
@@ -18,10 +17,7 @@ function About() {
                         Originally born and raised in Massachusetts, he attended UMass Amherst and received a Bachelors Degree in Communication with a minor in Sociology.  His lifelong passion for media, technology, and software led him to a career in audio visual production working for community media non-profits before moving up to AV project and program management in a corporate environment.
                     </p>
                     <p>
-                        Looking to grow in his career and expand his technological skillset even further, Chris attended a Full Stack Web Development certificate program through the University of Oregon.  He has worked on individual and group projects using React, MongoDB, Express, Node, JavaScript ES6, CSS3, HTML5, SQL, MySQL2, GitHub, Sequelize, Handlebars, jQuery, and Bootstrap.  His programming skills include Object-Oriented Programming (OOP), Object-Relational Mapping (ORM), Model-View-Controller Programming (MVC), and Progressive Web Applications (PWA).
-                    </p>
-                    <p>
-                        A social extrovert with a natural talent for customer service, Chris enjoys working both independently and as part of a collaborative team.  His passions include coding, media, travel, camping, meeting and networking with new people, music, dancing, food, art, amusement parks, and generally exploring the world around him with curiosity, fervor, and a sense of humor. 
+                        His passions include coding, media, travel, camping, meeting and networking with new people, music, dancing, food, art, amusement parks, and generally exploring the world around him with curiosity, fervor, and a sense of humor. 
                     </p>
                 </div>
             </div>

@@ -170,6 +170,20 @@ body, html {
   background-color: var(--color-3);
 }
 
+/* Resume Section */
+.resume-download {
+  color: var(--color-5);
+  text-decoration: none;
+}
+
+.resume-download:hover {
+  /* background: var(--color-5); */
+  color: var(--color-6);
+  border-radius: 15px;
+  text-shadow: none;
+  text-decoration: none;
+}
+
 /* Footer Section */
 .footer {
   background-color: var(--color-4);
