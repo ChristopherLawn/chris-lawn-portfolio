@@ -13,7 +13,7 @@ This site showcases the work of web developer Chris Lawn.
 * HTML
 
 ## **Website**
-[Chris Lawn Portfolio](http://ChristopherLawn.github.io/chris-lawn-portfolio)
+[Chris Lawn Portfolio](http://ChristopherLawn.github.io/react-portfolio)
 
 ## **Questions**
 Please contact me directly with any additional questions:
