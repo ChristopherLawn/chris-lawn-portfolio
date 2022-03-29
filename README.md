@@ -1,4 +1,4 @@
-# Chris Lawn Professional Portfolio
+# Chris Lawn Professional Portfolio 
 
 ## **Description**
 This site showcases the work of web developer Chris Lawn.  Visit the site at the link below to learn more about him and view his portfolio.  His work which includes both team projects and solo projects.
