@@ -13,7 +13,7 @@ This site showcases the work of web developer Chris Lawn.
 * HTML
 
 ## **Website**
-[CashTrack](https://calm-shelf-39493.herokuapp.com/)
+[Chris Lawn Portfolio](http://ChristopherLawn.github.io/chris-lawn-portfolio)
 
 ## **Questions**
 Please contact me directly with any additional questions:
