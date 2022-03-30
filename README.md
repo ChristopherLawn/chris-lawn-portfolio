@@ -14,7 +14,7 @@ This site showcases the work of web developer Chris Lawn.  Visit the site at the
 * GitHub Pages
 
 ## **Website**
-[Chris Lawn Portfolio](http://ChristopherLawn.github.io/react-portfolio)
+[Chris Lawn Portfolio](https://christopherlawn.github.io/chris-lawn-portfolio/)
 
 ## **Questions**
 Please contact me directly with any additional questions:
