@@ -12,13 +12,13 @@ function ContactForm() {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
             if (!isValid) {
-                setErrorMessage('Your email is invalid.');
+                setErrorMessage('email is invalid');
             } else {
                 setErrorMessage('');
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`${e.target.name} is required`);
             } else {
                 setErrorMessage('');
             }
@@ -29,21 +29,11 @@ function ContactForm() {
         }
     }
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log(formState);
-    }
-
     return (
         <section>
             <Container>
-                <Form id="contact-form" onSubmit={handleSubmit}>
-                    <div className="contact-live-links">
-                    <h1 className="contact-title">Contact me</h1>
-                    <h4><a href="mailto:christopher.d.lawn@gmail.com">Email</a></h4>
-                    <h4><a href="tel:5554280940">Phone</a></h4>
-                    </div>
-                    <h4>Contact Form</h4>
+                <Form id="contact-form" target="_blank" action="https://formsubmit.co/8dfa36473550abfc2499eaf5bcafa6eb" method="POST">
+                    <h1 className="contact-title">Contact Me</h1>
                     <Form.Group controlId="form.Name">
                         <Form.Label className="contact-input" htmlFor="name">Name:</Form.Label>
                         <Form.Control type="text" defaultValue={name} name="name" onBlur={handleChange} placeholder="Enter name" />
@@ -54,7 +44,7 @@ function ContactForm() {
                     </Form.Group>
                     <Form.Group controlId="form.Textarea">
                         <Form.Label className="contact-input" htmlFor="message">Message:</Form.Label>
-                        <Form.Control className="contact-message" as="textarea" name="message" defaultValue={message} rows="3" onBlur={handleChange} />
+                        <Form.Control type="text" defaultValue={message} name="message" className="contact-message" as="textarea" rows="3" onBlur={handleChange} placeholder="Please enter your comment, question, or request" />
                     </Form.Group>
                     {errorMessage && (
                         <div>
