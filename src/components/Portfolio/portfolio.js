@@ -61,9 +61,9 @@ export default function Portfolio() {
                                     {project.description}
                                 </Card.Text>
                                 <Stack direction='horizontal' gap={5}>
-                                    <Button variant="outline-primary" href={project.link}>Project Website</Button>
+                                    <Button variant="outline-primary" href={project.link} target="_blank">Project Website</Button>
                                     <div className='vr' />
-                                    <Button variant="outline-info" href={project.githubLink}>GitHub Repo</Button>
+                                    <Button variant="outline-info" href={project.githubLink} target="_blank">GitHub Repo</Button>
                                 </Stack>
                             </Card.Body>
                         </Card>
