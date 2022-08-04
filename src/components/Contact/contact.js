@@ -33,6 +33,10 @@ function ContactForm() {
         <section>
             <Container>
                 <Form id="contact-form" target="_blank" action="https://formsubmit.co/8dfa36473550abfc2499eaf5bcafa6eb" method="POST">
+                    <h1 className="contact-title">Email</h1>
+                    <a className="contact-input" href="mailto:christopher.d.lawn@gmail.com">christopher.d.lawn@gmail.com</a>
+                    <br></br>
+                    <br></br>
                     <h1 className="contact-title">Contact Me</h1>
                     <Form.Group controlId="form.Name">
                         <Form.Label className="contact-input" htmlFor="name">Name:</Form.Label>

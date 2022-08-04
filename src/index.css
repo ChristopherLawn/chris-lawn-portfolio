@@ -1,9 +1,9 @@
 :root {
-  --color-1: #0D0221;
-  --color-2: #0F084B;
-  --color-3: #26408B;
-  --color-4: #A6CFD5;
-  --color-5: #C2E7D9;
+  --color-1: #0d0221;
+  --color-2: #0f084b;
+  --color-3: #26408b;
+  --color-4: #a6cfd5;
+  --color-5: #c2e7d9;
   --color-6: #ffff;
 }
 
@@ -17,7 +17,8 @@ body {
   justify-content: space-around;
 }
 
-body, html {
+body,
+html {
   height: 100vh;
   color: var(--color-3);
   font-family: Arial, Helvetica, sans-serif;
@@ -25,9 +26,8 @@ body, html {
 }
 
 /* Main Title & Background */
-.main-background{
+.main-background {
   min-height: 90vh;
- 
 }
 
 .main-title {
@@ -41,11 +41,11 @@ body, html {
 }
 
 .nav-titles {
-  color: var(--color-4)
+  color: var(--color-4);
 }
 
 .section-title {
-  color:var(--color-4);
+  color: var(--color-4);
   text-decoration: none;
   border-radius: 15px;
   font-size: 20px;
@@ -70,7 +70,7 @@ body, html {
   color: var(--color-2) !important;
 }
 
-.test{
+.test {
   padding: 20px;
   padding-bottom: 50px;
 }
@@ -100,15 +100,21 @@ body, html {
 .card-title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
-  color: var(--color-1);
-  background-color: var(--color-5);
-  border-radius: 5px;
+  color: var(--color-6);
+  background-color: var(--color-3);
+  border-radius: 20px;
   text-align: center;
 }
 
 .card-text {
   font-weight: bold;
   color: var(--color-3);
+}
+
+.tools {
+  color: var(--color-1);
+  font-style: italic;
+  font-weight:600
 }
 
 .contact-title {
@@ -121,7 +127,7 @@ body, html {
 
 /* Contact Page */
 #contact-form {
-  background-color: #0F084B;
+  background-color: #0f084b;
   border-radius: 15px;
   padding: 15px;
   margin: 10px;
@@ -140,6 +146,7 @@ body, html {
   color: var(--color-5);
   font-weight: bolder;
   font-size: larger;
+  text-decoration: none;
 }
 
 .error-text {
@@ -219,4 +226,22 @@ textarea:focus::placeholder {
   text-shadow: none;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+@media (max-width: 515px) {
+  .contact-input {
+    font-size: large;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-input {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 300px) {
+  .contact-input {
+    font-size:x-small;
+  }
 }
